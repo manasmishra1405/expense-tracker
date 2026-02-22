@@ -1,62 +1,59 @@
 /* RESET */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
 }
 
-.landing-page {
-    min-height: 100vh;
-    background: linear-gradient(135deg, #667eea, #764ba2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+/* LANDING PAGE */
+body.landing {
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .landing-container {
-    background: rgba(255, 255, 255, 0.15);
-    padding: 40px;
-    border-radius: 18px;
-    width: 90%;
-    max-width: 420px;
-    text-align: center;
-    backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  padding: 40px;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 420px;
+  text-align: center;
+  color: #fff;
 }
 
 .landing-container h1 {
-    font-size: 28px;
-    margin-bottom: 15px;
+  font-size: 28px;
+  margin-bottom: 15px;
 }
 
 .tagline {
-    font-size: 15px;
-    opacity: 0.9;
-    margin-bottom: 25px;
+  font-size: 15px;
+  opacity: 0.9;
+  margin-bottom: 25px;
 }
 
-.features {
-    text-align: left;
-    margin-bottom: 30px;
-}
-
-.features p {
-    margin-bottom: 8px;
+.features div {
+  margin: 8px 0;
+  font-size: 14px;
 }
 
 .start-btn {
-    display: inline-block;
-    padding: 12px 26px;
-    background: #fff;
-    color: #667eea;
-    border-radius: 30px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: 0.3s;
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 24px;
+  background: #fff;
+  color: #5a4fdc;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
 }
 
 .start-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  background: #f1f1f1;
 }
